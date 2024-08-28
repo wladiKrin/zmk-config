@@ -62,16 +62,16 @@
               &kp Q       &kp W       &kp E         &kp R         &kp T        &kp Y    &kp U        &kp I       &kp O       &kp P
               &hm LALT A  &hm LCTRL S &hm LGUI D    &hm LSHIFT F  &kp G        &kp H    &hm RSHFT J  &hm RGUI K  &hm RCTRL L &hm RALT SEMICOLON
   &kp TAB     &kp Z       &kp X       &kp C         &kp V         &kp B        &kp N    &kp M        &kp COMMA   &kp DOT     &kp SLASH    &kp APOSTROPHE
-                                      &kp BSPC      &kp SPACE     &mo Num      &mo Sym  &kp RET      &trans
+                                      &kp BSPC      &kp SPACE     &mo Sym      &mo Num  &kp RET      &trans
             >;
         };
 
         Num {
             label = "Num";
             bindings = <
-              &kp 1    &kp 2   &kp 3    &kp 4   &kp 5          &trans    &trans        &trans  &trans    &trans
-              &kp 6    &kp 7   &kp 8    &kp 9   &kp 0          &kp LEFT  &kp DOWN      &kp UP  &kp RIGHT &trans
-&trans        &trans   &kp K_PP   &kp K_VOL_DN   &kp K_MUTE    &kp K_VOL_UP      &trans  &trans  &trans  &trans  &trans  &trans
+              &kp N1    &kp N2   &kp N3    &kp N4   &kp N5          &trans    &trans        &trans  &trans    &trans
+              &kp N6    &kp N7   &kp N8    &kp N9   &kp N0          &kp LEFT  &kp DOWN      &kp UP  &kp RIGHT &trans
+&trans        &trans   &kp PP   &kp VOL_DN   &kp KMUTE    &kp VOL_UP      &trans  &trans  &trans  &trans  &trans  &trans
                                          &trans        &trans     &trans      &trans    &trans        &trans
             >;
         };
@@ -79,9 +79,9 @@
         Sym {
             label = "Sym";
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans     &trans         &trans           &kp LBRC   &kp RBRC
-        &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT       &kp ESC     &kp MINUS     &kp KP_EQUAL     &kp GRAVE   &kp NUBS
-&trans  &kp TILDE    &trans  &trans    &trans      &trans                 &kp UNDER  &kp EQUAL      &trans           &trans   &trans  &trans
+        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans      &trans         &trans           &kp LBRC   &kp RBRC
+        &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &hm LSHFT SQT  &kp DQT       &kp ESC     &hm RSHFT MINUS     &kp EQUAL     &kp GRAVE   &kp NUBS
+&trans  &kp TILDE    &trans  &trans    &trans      &trans                 &trans      &trans      &trans           &trans   &trans  &kp CAPS
                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
