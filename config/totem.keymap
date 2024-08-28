@@ -79,7 +79,7 @@
         Sym {
             label = "Sym";
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans      &trans         &trans           &kp LBRC   &kp RBRC
+        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans      &trans         &trans           &kp LBKT   &kp RBKT
         &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &hm LSHFT SQT  &kp DQT       &kp ESC     &hm RSHFT MINUS     &kp EQUAL     &kp GRAVE   &kp NUBS
 &trans  &kp TILDE    &trans  &trans    &trans      &trans                 &trans      &trans      &trans           &trans   &trans  &kp CAPS
                           &trans    &trans      &trans         &trans     &trans         &trans
