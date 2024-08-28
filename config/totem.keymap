@@ -15,7 +15,7 @@
 
 #define Base        0
 #define Media       1
-#define Nav         2
+#define Num         2
 #define Mouse       3
 #define Sym         4
 #define Num         5
@@ -59,29 +59,29 @@
         Base {
             label = "Base";
             bindings = <
-              &kp Q       &kp W       &kp E          &kp R         &kp T        &kp Y    &kp U        &kp I        &kp O       &kp P
-              &hm LGUI A  &hm LALT S  &hm LCTRL D    &hm LSHIFT F  &kp G        &kp H    &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMICOLON
-&lt 3 ESCAPE  &kp Z       &kp X       &kp C          &kp V         &kp B        &kp N    &kp M        &kp COMMA    &kp DOT     &kp SLASH           &kp APOSTROPHE
-                                      &mt LCTRL DEL  &lt 1 TAB     &kp SPACE    &kp RET  &lt 2 BSPC   &kp MINUS
+              &kp Q       &kp W       &kp E         &kp R         &kp T        &kp Y    &kp U        &kp I       &kp O       &kp P
+              &hm LALT A  &hm LCTRL S &hm LGUI D    &hm LSHIFT F  &kp G        &kp H    &hm RSHFT J  &hm RGUI K  &hm RCTRL L &hm RALT SEMICOLON
+  &kp TAB     &kp Z       &kp X       &kp C         &kp V         &kp B        &kp N    &kp M        &kp COMMA   &kp DOT     &kp SLASH    &kp APOSTROPHE
+                                      &kp BSPC      &kp SPACE     &mo 1        &mo 2  &kp RET      &trans
             >;
         };
 
-        Nav {
-            label = "Nav";
+        Num {
+            label = "Num";
             bindings = <
-              &kp TILDE       &trans     &kp UP_ARROW  &trans     &kp LBRC    &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-              &kp LEFT_SHIFT  &kp LEFT   &kp DOWN      &kp RIGHT  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&kp LEFT_ALT  &kp LEFT_WIN    &kp MINUS  &trans        &kp PLUS   &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &kp PLUS
-                                         &trans        &trans     &trans      &trans    &trans        &kp DOT
+              &kp 1    &kp 2   &kp 3    &kp 4   &kp 5          &trans    &trans        &trans  &trans    &trans
+              &kp 6    &kp 7   &kp 8    &kp 9   &kp 0          &kp LEFT  &kp DOWN      &kp UP  &kp RIGHT &trans
+&trans        &trans   &kp K_PP   &kp K_VOL_DN   &kp K_MUTE    &kp K_VOL_UP      &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans        &trans     &trans      &trans    &trans        &trans
             >;
         };
 
         Sym {
             label = "Sym";
             bindings = <
-        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT
-        &trans    &trans  &trans    &trans      &trans         &trans     &trans         &trans           &trans   &trans
-&trans  &trans    &trans  &trans    &trans      &trans         &kp UNDER  &kp EQUAL      &trans           &trans   &kp SLASH  &kp HOME
+        &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans     &trans         &trans           &kp LBRC   &kp RBRC
+        &kp CARET  &kp AMPERSAND  &kp KP_ASTERISK  &kp SQT  &kp DQT       &kp ESC     &kp MINUS     &kp KP_EQUAL     &kp GRAVE   &kp NUBS
+&trans  &kp TILDE    &trans  &trans    &trans      &trans                 &kp UNDER  &kp EQUAL      &trans           &trans   &trans  &trans
                           &trans    &trans      &trans         &trans     &trans         &trans
             >;
         };
