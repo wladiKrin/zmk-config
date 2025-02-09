@@ -94,7 +94,7 @@
         Fun {
             label = "Fun";
             bindings = <
-        &F1  &F2       &F3           &F4         &F5             &bt BT_SEL 0  &BT_PRV  &bt BT_NXT  &trans  &bootloader
+        &F1  &F2       &F3           &F4         &F5             &bt BT_SEL 0  &bt BT_PRV  &bt BT_NXT  &trans  &bootloader
         &F6  &F7       &F8           &F9         &F10            &msc SCRL_LEFT  &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT   &trans
 &F11    &F12 &kp C_PP  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP    &out OUT_USB  &out OUT_BLE  &out OUT_TOG  &trans   &trans  &trans
                              &mkp MB4  &mkp MB5  &mkp MB1    &trans  &trans  &trans
